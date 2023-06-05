@@ -1,0 +1,29 @@
+.rectangulo4 {
+  background-color: #EEEEEE; 
+  height: 250px; 
+  width: 100%; 
+  position: absolute; 
+  top: 1550px; 
+  left: 0; 
+  right: 0;
+  }
+  
+  .botonesr4 {
+    font-family: inherit; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 30px;
+  }
+  
+  .botonesr4 Button {
+    border: 1px solid black;  
+    margin: 10px; 
+    color: black; 
+    background-color: transparent; 
+    width: 160px;
+  }
+
+
+

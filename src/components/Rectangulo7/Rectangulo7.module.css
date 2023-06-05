@@ -1,0 +1,17 @@
+.rectangulo7 {
+  background-color: #dcdcdc; 
+  height: 600px; 
+  width: 100%; 
+  position: absolute; 
+  top: 3690px; 
+  left: 0; 
+  right: 0;
+  }
+  
+  .cartasaling{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;  
+  }
+
+

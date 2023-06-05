@@ -1,0 +1,27 @@
+.rectangulo2 {
+  background-color: white; 
+  height: 200px; 
+  width: 100%; 
+  position: absolute; 
+  top: 700px; 
+  left: 0; 
+  right: 0;
+  }
+  
+.botonesr2 {
+  font-family: inherit;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px;
+}
+
+.botonesr2 Button {
+  border: 1px solid black;  
+  margin: 10px; 
+  color: black; 
+  background-color: white; 
+  width: 150px;
+}
+

@@ -1,0 +1,33 @@
+.imagen2 {
+  background-color: white; 
+  height: 400px; 
+  width: 100%; 
+  position: relative; 
+  top: 2780px; 
+  left: 0; 
+  right: 0;
+  }
+  
+  .imagen2 h1,
+  .imagen2 p,
+  .imagen2 button {
+  position: relative;
+  }
+  
+  .imagen2 h1 {
+  top: -30px;
+  left: -30%;
+  }
+  
+  .imagen2 p {
+  top: -40px; 
+  left: 9.6%;
+  }
+  
+  .imagen2 button {
+  top: -50px; 
+  left: -29%;
+  }
+
+
+

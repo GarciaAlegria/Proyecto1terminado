@@ -1,0 +1,23 @@
+.rectangulo3 {
+   background-color: white; 
+   height: 300px; 
+   width: 92.2%; 
+   position: absolute; 
+   top: 900px; 
+   left: 0; 
+   right: 0; 
+   display: flex;
+   justify-content: space-between; 
+   align-items: center; 
+   padding: 0 50px;
+  }
+  
+.mini {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+

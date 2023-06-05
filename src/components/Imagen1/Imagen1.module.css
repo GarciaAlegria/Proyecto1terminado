@@ -1,0 +1,33 @@
+.imagen1 {
+  background-color: white; 
+  height: 400px; 
+  width: 100%; 
+  position: absolute; 
+  top: 1190px; 
+  left: 0; 
+  right: 0;
+  }
+  
+  .imagen1 h1,
+  .imagen1 p,
+  .imagen1 button {
+  position: relative;
+  }
+  
+  .imagen1 h1 {
+  top: 0px;
+  left: 10%;
+  }
+  
+  .imagen1 p {
+  top: 0px; 
+  left: 10%;
+  }
+  
+  .imagen1 button {
+  top: 0px; 
+  left: -20%;
+  }
+
+
+
