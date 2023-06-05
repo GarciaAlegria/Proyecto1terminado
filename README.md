@@ -1,4 +1,4 @@
-# PurinaWebProyecto1
+# Purina Proyecto 1 web
 Proyecto 1 Sistemas y Tecnologias web
 
 Este proyecto web utiliza una combinación de tecnologías populares para crear una interfaz de usuario atractiva y optimizada. A continuación, se detallan las tecnologías principales utilizadas y cómo se integran en el proyecto.
@@ -13,15 +13,26 @@ Este proyecto web utiliza una combinación de tecnologías populares para crear 
 
 - *Vite*: Vite es un entorno de desarrollo ultrarrápido para aplicaciones web modernas. Proporciona una experiencia de desarrollo en tiempo real con tiempos de compilación rápidos y un servidor de desarrollo integrado. Vite también admite la carga de módulos rápidos (ESM) para un tiempo de carga más rápido en el navegador. Puedes configurar tu proyecto para utilizar Vite como el entorno de desarrollo y aprovechar sus características de desarrollo rápido.
 
+- *Storybook*: Es una herramienta de código abierto que permite a los desarrolladores de interfaces de usuario (UI) crear, probar y documentar componentes de manera aislada en un entorno visualmente atractivo y fácil de usar. Con Storybook, los desarrolladores pueden crear una biblioteca de componentes reutilizables para su aplicación y ver cómo funcionan en diferentes contextos y casos de uso.
+
+- *Eslint*: Es una herramienta de análisis de código estática que ayuda a identificar y corregir problemas de estilo y errores en el código JavaScript. ESLint es altamente personalizable y se puede configurar para cumplir con los estándares de codificación específicos de un equipo o proyecto.
+
 ## Configuración del proyecto
 
 1. Clona este repositorio en tu máquina local.
-
 2. Abre una terminal y navega hasta el directorio del proyecto.
-
 3. Ejecuta el siguiente comando para instalar las dependencias necesarias: npm install
-
 4. Ejecuta el siguiente comando para correr la aplicacion: npm run dev
+
+## Configuración de storybook
+1. Primero, asegúrate de tener Node.js y npm instalados en tu sistema. Si no los tienes, puedes descargar Node.js desde su sitio web oficial y npm se instalará automáticamente junto con Node.js.
+2. Abre la terminal y ejecuta el comando npm install --save-dev @storybook/react
+3. Crea un archivo .storybook/main.js en la raíz de tu proyecto
+4. Para correr el test de storybook de este proyecto ejecuta el comando npm run storybook
+
+## Como correr eslint del proyecto
+1. Abre la terminal y ubicate en la carpeta del archivo del proyecto
+2. ejecuta el comando npm run lint con este comando se ejecutará eslint con las reglas propuestas.
 
 
 ## Jerarquía de documentos
